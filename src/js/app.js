@@ -6,7 +6,7 @@ function darkMode(){
     const botonDark = document.querySelector('.dark-mode-boton');
 
     botonDark.addEventListener('click', function(){
-        document.body.classList.toggle('dark-mode')
+        document.body.classList.toggle('dark-mode');
     });
 }
 function evenListeners(){
